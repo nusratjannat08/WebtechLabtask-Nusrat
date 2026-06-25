@@ -1,0 +1,50 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1 { text-align: center; }
+
+
+fieldset {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgb(128, 0, 255);
+    padding: 95px 105px;
+    height:280px;
+    width: 700px;
+}
+table {
+    padding: 115px 115px;
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+  label {
+  
+    font-weight: bold;
+  }
+
+input {
+   padding: 10px 80px;
+   height: 45%;
+   width: 85%;
+}
+
+
+.grad {
+  background: linear-gradient(to bottom, rgb(0, 102, 255), rgb(132, 0, 255));
+  font-size: xx-large;
+  color:white;
+
+}
+button {
+    color: white;
+    background-color: blue;
+    font-size: xx-large;
+}
+.submit {
+    margin: 105px 450px 85px 350px;
+}
