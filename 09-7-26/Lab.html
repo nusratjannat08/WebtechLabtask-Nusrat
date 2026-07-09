@@ -1,0 +1,53 @@
+<html>
+<head>
+    <script src = "script.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration</legend>
+        <form onsubmit="return registration();">
+            <table>
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                    <input type="text" id="Name"/>
+                    <p id = "errorname"></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                        <input type = "email" id = "Email"/>
+                    <p id = "errormail"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type ="pwd" id = "password" />
+                        <p id ="errorpass"></p>
+                    </td>
+                </tr>
+                <tr>
+                   <td><button onclick = "return sum ()">
+                        Submit 
+                    </button></td>
+                    </tr>
+                    <tr>
+                    <td> 
+                        regisration count:
+                    </td>
+                    <td>
+                        <input type ="number" id = "sumb"/>
+                    </td>
+
+
+                </tr>
+            </table>
+
+        </form>
+    </fieldset>
+</body>
+</html>
