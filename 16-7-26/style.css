@@ -1,0 +1,38 @@
+ fieldset {
+    margin: 50px auto;          
+    width: fit-content;       
+    padding: 20px;
+}
+
+form {
+    position: relative;
+    background-color: lightblue;
+    padding: 40px;             
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+form p {
+
+    color: red;
+   
+    margin: 1px 0 0 0;         
+}
+.label{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button {
+   position: absolute;
+   background-color: aliceblue;
+    
+    left:155px;
+
+    padding: 8px 20px 8px 20px;
+
+            
+}
